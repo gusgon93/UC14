@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doceria</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <h2>Menu de Doces</h2>
+
+    <img src="banner.jpg" alt="Catálogo de Doces" id="status" style="max-width: 100%; height: auto;">
+
+    <form name="frmProdutos">
+        <select id="produto">
+            <option value="">Selecione...</option>
+            <option value="bombom">bombom</option>
+            <option value="gelatina">gelatina</option>
+            <option value="torta">torta</option>
+            <option value="goma">goma</option>
+        </select> 
+
+        <input type="button" value="Buscar" onclick="buscarProduto()">
+        <input type="button" value="Limpar" onclick="limparBusca()">
+    </form>
+
+    <div id="resultado" style="margin-top: 30px; text-align: center;"></div>
+   
+    <script src="main.js"></script>
+
+
+    <img id="imagem" width="150">
+    <p id="preco"></p>
+
+</body>
+</html>
