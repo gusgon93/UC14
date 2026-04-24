@@ -1,0 +1,29 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: red;
+    color: pink;
+}
+
+h2 {
+    color: aquamarine;
+}
+
+button {
+    padding: 15px;
+    margin: 10px;
+    background-color:pink;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: purple;
+}
+
+img {
+    margin-top: 30px;
+    border-radius: 10px;
+}
